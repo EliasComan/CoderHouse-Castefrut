@@ -1,0 +1,30 @@
+
+*{
+    padding: 0;
+    
+}
+.productos{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    grid-template-areas: "producto producto";
+    grid-area: auto;
+}
+.card{
+    grid: producto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 5% 0% 5% 20%;
+    border-color: #96BB7C;
+}
+
+.btn{
+    background-color: #96BB7C;
+    border-color: #96BB7C;
+}
+.btn:hover{
+    color: black;
+    background-color: #FAD586;
+    border-color: #FAD586;
+}
