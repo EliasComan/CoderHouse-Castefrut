@@ -69,7 +69,7 @@ main{
     overflow-y: hidden;
 }
 .mision{
-    margin-top: 2%;
+    margin-top: 2%; 
 }
 .mision-titulo{
     display: flex;
@@ -78,11 +78,12 @@ main{
 
 .mision-texto{
     display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 .mision-texto p{
-    margin-top: 5%;
-    max-width: 60%;
-    padding: 2% 2% 5% 3%;
+    margin: 2% 2% 2% 2%;
+    max-width: 75%;
 }
 .mision-texto img{
     margin-top: 5%;
@@ -159,15 +160,17 @@ text-align: center;
 
 /*FOOTER*/
 footer{
-    padding: 3.5%;
-    background-image:linear-gradient(#D6EFC7,#184D47);
+    background-color: #96BB7C;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: space-evenly;
     align-items: center;
 }
+footer p{
+    text-align: center;
+}
 .redes i{
-    color: #96BB7C;
+    color: black;
 
 }
 .redes i a{
@@ -178,9 +181,15 @@ footer{
 .redes i:hover{
     color: #FAD586;
 }
-.derechos{
-color: #eff7eb;
+.valor{
+    transition: all 0.3s ease;
 }
 .valor:hover{
     transform: scale(1.1);
+}
+
+@media screen and (min-width:768px) { 
+    footer{
+        flex-direction: row;
+    }
 }
