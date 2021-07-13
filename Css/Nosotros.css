@@ -2,10 +2,11 @@
     margin: 0%;
     padding: 0%;
     list-style: none;
+    max-width: 100%;
 
 }
 .navbar{
-    background-color: #96BB7C !important;
+    background-color: white !important;
 }
 
 .empresa{

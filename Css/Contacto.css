@@ -1,6 +1,24 @@
 .icon{
     color: #FAD586;
 }
+.banner-contacto  {
+    background:linear-gradient(to bottom, rgba(0, 0, 0, 0.4) 0%, rgba(0, 0, 0, 0.5) 100%), url(/Imagenes/bannercontacto.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    width: auto;
+    height: auto;
+    text-align: center;
+    color: white;
+}
+.banner-contacto p{
+    padding: 25%;
+    font-size: 50px;
+}
+.banner-contacto img {
+    width: 100%;
+    height: auto;
+}
 .contacto{
     margin: 5%;
     display: flex;
@@ -8,8 +26,14 @@
     align-items: center;
     text-align: center;
 }  
-
-.telefono,.mail,.ubicacion,.horario{
+.contacto p{
     padding: 5%;
 }
+.telefono,.mail,.ubicacion,.horario{
+    padding: 5%;
+    transition: all ease 0.2s;
 
+}
+.telefono:hover,.mail:hover,.ubicacion:hover,.horario:hover{
+    transform: scale(1.1);
+}
