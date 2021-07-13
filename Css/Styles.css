@@ -143,6 +143,15 @@ text-align: center;
 }
 
 /*FOOTER*/
+.btn{
+    background-color: #184D47 !important;
+    border-color: #184D47 !important;
+}
+.btn:hover{
+    color: black !important;
+    background-color: #FAD586 !important;
+    border-color: #FAD586 !important;
+}
 footer{
     padding: 5%;
     background-color: #96BB7C;
