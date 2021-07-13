@@ -4,55 +4,24 @@
     list-style-type: none;
 }
 /*HEADER*/
-a{text-decoration: none;}
+a{text-decoration: none;
+}
+.navbar{
+    background-color: white !important;
+}
 
 .navbar1{
-    background-image: url(/Imagenes/fondo-inicio.jpg);
+    background:linear-gradient(to bottom, rgba(0, 0, 0, 0.6) 0%, rgba(0, 0, 0, 0.9) 100%), url(/Imagenes/fondo-inicio.jpg);
     background-attachment: fixed;
     background-position: center;
     background-size: cover;
     width: 100%;
     height: 100vh;
+    background-position-y:center;
     color:#eff7eb;
 
-
-  
-}
-.texto{
-    background: rgb(0,0,0,0.4);
-    height: 100vh;
-    padding-top: 2%;
-    overflow: hidden;
-    
-}
-h1{
-    margin-left: 2%;
-    overflow-y: hidden;
-    padding-bottom: 0%;
-    margin-bottom: 0%;
-}
-.navbar1 img{
-    height: 200px;
-    width: 200px;
-
 }
 
-.navbar-menu1{
-
-    margin-left: 60%;
-    display: flex;  
-}
-
-.navbar-menu1 li{
-    padding-left: 10% 
-
- 
-}
-.navbar-menu1 li a{
-    text-decoration: none;
-    color:#eff7eb;   
-
-}
 
 .bienvenida{
     display: flex;
@@ -86,10 +55,7 @@ main{
     margin: 2% 2% 2% 2%;
     max-width: 75%;
 }
-.mision-texto img{
-    margin-top: 5%;
-    padding-left: 5%;
-}
+
 .guion{
     display: flex;
     align-items: center;
@@ -108,6 +74,7 @@ hr{
     margin-top: 5%;
     background-image: linear-gradient(#D6EFC7);
     padding-bottom: 5%;
+    
 }
 .valores-tiulo{
     padding-top: 2%;
@@ -130,7 +97,9 @@ hr{
     text-align: center;
 }
 
-
+h3{
+    font-size:  1em !important;
+}
 
 .valor img{
     height: auto;
@@ -138,6 +107,7 @@ hr{
 .valor h3{
     margin-top: 10%;
     overflow: hidden;
+    text-align: center;
 }
 
 .valores-segundalinea{
@@ -161,18 +131,20 @@ text-align: center;
     align-items: center;
 }
 .innovacion-titulo p{
+    margin-top: 2%;
     max-width: 85%;
     text-align: center;
 }
-.innovacion-imagen img{
-    padding-top: 2%;
-    width: 100%;
-    height: auto;
-    filter: brightness(97%);
+.innovacion-imagen .img img{
+    margin-top: 5%;
+    margin-bottom: 5%;
+    filter: brightness(95%);
+    max-width: 100%;
 }
 
 /*FOOTER*/
 footer{
+    padding: 5%;
     background-color: #96BB7C;
     display: flex;
     flex-direction: column;
@@ -194,15 +166,20 @@ footer p{
 .redes i:hover{
     color: #FAD586;
 }
-.valor{
-    transition: all 0.3s ease;
-}
+
 .valor:hover{
-    transform: scale(1.1);
+    transform: scale(1.05);
+}
+.valor{
+    margin: 5%;
+    transition: all 0.2s ease;
 }
 
 @media screen and (min-width:768px) { 
     footer{
         flex-direction: row;
+    }
+    h3{
+        font-size: 1.5rem !important;
     }
 }

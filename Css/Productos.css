@@ -11,20 +11,20 @@
     max-width: 100%;
 }
 .card{
-    margin: 15% 0% 15% 0%;
-    border-color: #96BB7C;
-    box-shadow: 5px 10px rgb(0, 0, 0,0.12);
-    border-radius: 1%;
+    margin: 15% !important;
+    border-color: #96BB7C !important;
+    box-shadow: 5px 10px rgb(0, 0, 0,0.12) !important;
+    border-radius: 1% !important;
 }
 
 .btn{
-    background-color: #96BB7C;
-    border-color: #96BB7C;
+    background-color: #96BB7C !important;
+    border-color: #96BB7C !important;
 }
 .btn:hover{
-    color: black;
-    background-color: #FAD586;
-    border-color: #FAD586;
+    color: black !important;
+    background-color: #FAD586 !important;
+    border-color: #FAD586 !important;
 }
 
 @media screen and (min-width:768px) {
