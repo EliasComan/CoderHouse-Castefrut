@@ -73,6 +73,10 @@ footer{
 footer p{
     text-align: center;
 }
+.lista-footer ul li a{
+    text-decoration: none;
+    color: white;
+}
 .redes{
         width: 35%;
         display: flex;
