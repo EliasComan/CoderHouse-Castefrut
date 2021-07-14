@@ -4,8 +4,6 @@
     list-style-type: none;
 }
 /*HEADER*/
-a{text-decoration: none;
-}
 .navbar{
     background-color: white !important;
 }
@@ -143,6 +141,11 @@ text-align: center;
 }
 
 /*FOOTER*/
+.lista-footer ul li a{
+    text-decoration: none;
+    color: black;
+}
+
 .btn{
     background-color: #184D47 !important;
     border-color: #184D47 !important;
