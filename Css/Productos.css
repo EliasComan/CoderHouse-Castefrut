@@ -1,6 +1,7 @@
 
 *{
     padding: 0;
+    margin: 0%;
     
 }
 .productos{
@@ -31,24 +32,41 @@
     background-color: #FAD586 !important;
     border-color: #FAD586 !important;
 }
-
 @media screen and (min-width:768px) {
+    .productos{
+        display:grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr;
+        grid-template-areas: "producto producto";
+        grid-area: auto;
+    }
+
+    .card{
+        display:grid;
+        margin: 10%;
+        grid:producto;
+    }
+}
+@media screen and (min-width:992px) {
     
     .productos{
-        margin: 5%;
+        margin: 10%;
         display: grid;
         grid-template-columns: 1fr 1fr;
         grid-template-rows: 1fr;
         grid-template-areas: "producto producto producto";
         grid-area: auto;
+ 
     }
     .card{
-        margin: 25%!important;
-        grid: producto;
+        grid: "producto";
+        margin-top: 15%!important;
         display: flex;
         flex-direction: column;
         align-items: center;
         border-color: #96BB7C;
+        margin: 10%;
+        position: !important;
     }
     
     .btn{
