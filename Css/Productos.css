@@ -33,6 +33,7 @@
 }
 
 @media screen and (min-width:768px) {
+    
     .productos{
         margin: 5%;
         display: grid;
@@ -42,7 +43,7 @@
         grid-area: auto;
     }
     .card{
-        margin: 10% 0% 0% 0%!important;
+        margin: 25%!important;
         grid: producto;
         display: flex;
         flex-direction: column;
