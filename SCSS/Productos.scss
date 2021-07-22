@@ -46,11 +46,10 @@
     display:grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr;
-    grid-template-areas: "producto producto producot";
+    grid-template-areas: "producto producto producto";
     .card{
-        margin: 5%;
+        margin: 25% 5% 10% 5% !important;
         display: grid;
-        grid:producto;
     }
   
   }   

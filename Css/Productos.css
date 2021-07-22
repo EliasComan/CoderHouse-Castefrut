@@ -33,7 +33,7 @@ footer .redes i a {
 }
 
 footer .redes i:hover {
-  color: c;
+  color: white;
 }
 
 footer .lista-footer ul li a {
@@ -127,13 +127,12 @@ footer .btn:hover {
         grid-template-columns: 1fr 1fr 1fr;
     -ms-grid-rows: 1fr;
         grid-template-rows: 1fr;
-        grid-template-areas: "producto producto producot";
+        grid-template-areas: "producto producto producto";
   }
   .productos .card {
-    margin: 5%;
+    margin: 25% 5% 10% 5% !important;
     display: -ms-grid;
     display: grid;
-    grid: producto;
   }
 }
 /*# sourceMappingURL=Productos.css.map */
