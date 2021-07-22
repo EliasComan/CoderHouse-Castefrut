@@ -21,7 +21,7 @@
 
     .card{
         border-color: $verde;
-        border-radius: 1%;
+        border-radius: 5%;
         box-shadow:  2px 5px $verde-oscuro;
         margin: 15% 0% 5% 0%;
         transition: all ease 0.2s;
@@ -51,10 +51,10 @@
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr;
     grid-template-areas: "producto producto producto";
-    .card{
-        margin: 25% 5% 10% 5% !important;
+        .card{
+        margin: 25% 5% 10% 15% !important;
         display: grid;
-    }
+        }
   
-  }   
+     }   
 }
