@@ -20,7 +20,19 @@
     justify-content: center;
 
     .card{
-        margin: 15% 0% 5% 0%
+        border-color: $verde;
+        border-radius: 2%;
+        box-shadow:  2px 5px  $verde-oscuro;
+        margin: 15% 0% 5% 0%;
+        .btn{
+            background-color: $verde;
+            border-color: $verde;
+            &:hover{
+                background-color: $verde-oscuro;
+                border-color: $verde-oscuro;
+            }
+        }
+        
     }
 }
 

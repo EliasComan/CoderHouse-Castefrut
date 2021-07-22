@@ -1,39 +1,136 @@
-.icon{
-    color: #FAD586;
+/*Declaracion de variables*/
+/*Declaracion de variables*/
+/*FOOTER*/
+footer {
+  padding: 5%;
+  background-color: #184D47;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
 }
-.banner-contacto  {
-    background:linear-gradient(to bottom, rgba(0, 0, 0, 0.4) 0%, rgba(0, 0, 0, 0.5) 100%), url(/Imagenes/bannercontacto.jpg);
-    background-attachment: fixed;
-    background-position: center;
-    background-size: cover;
-    width: auto;
-    height: auto;
-    text-align: center;
-    color: white;
-}
-.banner-contacto p{
-    padding: 25%;
-    font-size: 50px;
-}
-.banner-contacto img {
-    width: 100%;
-    height: auto;
-}
-.contacto{
-    margin: 5%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-}  
-.contacto p{
-    padding: 5%;
-}
-.telefono,.mail,.ubicacion,.horario{
-    padding: 5%;
-    transition: all ease 0.2s;
 
+footer p {
+  text-align: center;
+  color: white;
 }
-.telefono:hover,.mail:hover,.ubicacion:hover,.horario:hover{
-    transform: scale(1.1);
+
+footer .redes i {
+  color: white;
 }
+
+footer .redes i a {
+  text-decoration: none;
+}
+
+footer .redes i:hover {
+  color: c;
+}
+
+footer .lista-footer ul li a {
+  text-decoration: none;
+  color: white;
+}
+
+footer .btn {
+  background-color: #FAD586 !important;
+  border-color: #FAD586 !important;
+  color: black;
+}
+
+footer .btn:hover {
+  color: black !important;
+  background-color: #96BB7C !important;
+  border-color: #96BB7C !important;
+}
+
+@media screen and (min-width: 768px) {
+  footer {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: row-reverse;
+            flex-direction: row-reverse;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+  }
+}
+
+* {
+  margin: 0%;
+  padding: 0%;
+  list-style-type: none;
+}
+
+.navbar {
+  background-color: white !important;
+}
+
+.banner-contacto {
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.4)), to(rgba(0, 0, 0, 0.5))), url(/Imagenes/bannercontacto.jpg);
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.4) 0%, rgba(0, 0, 0, 0.5) 100%), url(/Imagenes/bannercontacto.jpg);
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+  width: auto;
+  height: auto;
+  text-align: center;
+  color: white;
+}
+
+.banner-contacto p {
+  padding: 25%;
+  font-size: 50px;
+}
+
+.banner-contacto img {
+  width: 100%;
+  height: auto;
+}
+
+.contacto {
+  margin: 5%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+}
+
+.contacto p {
+  text-align: center;
+  padding: 5%;
+}
+
+.contacto .telefono, .contacto .mail, .contacto .ubicacion, .contacto .horario {
+  padding: 5%;
+  -webkit-transition: all ease 0.2s;
+  transition: all ease 0.2s;
+}
+
+.contacto .telefono:hover, .contacto .mail:hover, .contacto .ubicacion:hover, .contacto .horario:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+
+.contacto .telefono .icon, .contacto .mail .icon, .contacto .ubicacion .icon, .contacto .horario .icon {
+  color: #FAD586;
+}
+/*# sourceMappingURL=Contacto.css.map */

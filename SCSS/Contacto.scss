@@ -1,0 +1,58 @@
+@import 'variables';
+@import 'footer';
+
+*{
+    margin: 0%;
+    padding: 0%;
+    list-style-type:  none;
+}
+
+.navbar{
+    background-color: white !important;
+}
+
+.banner-contacto  {
+    
+    background:linear-gradient(to bottom, rgba(0, 0, 0, 0.4) 0%, rgba(0, 0, 0, 0.5) 100%), url(/Imagenes/bannercontacto.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    width: auto;
+    height: auto;
+    text-align: center;
+    color: white;
+ 
+
+    p{
+        padding: 25%;
+        font-size: 50px;
+    }
+    img {
+        width: 100%;
+        height: auto;
+    }
+}
+
+.contacto{
+    margin: 5%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    p{
+        text-align: center;
+        padding: 5%;
+    }
+    .telefono,.mail,.ubicacion,.horario{
+        padding: 5%;
+        transition: all ease 0.2s;
+        &:hover{
+            transform: scale(1.1);
+        }
+           
+    .icon{
+        color:$amarillo;
+    }
+    }
+
+}  
