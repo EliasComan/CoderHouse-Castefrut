@@ -1,80 +1,125 @@
+/*Declaracion de variables*/
+/*Declaracion de variables*/
+/*FOOTER*/
+footer {
+  padding: 5%;
+  background-color: #184D47;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
 
-*{
-    padding: 0;
+footer p {
+  text-align: center;
+  color: white;
+}
+
+footer .redes i {
+  color: white;
+}
+
+footer .redes i a {
+  text-decoration: none;
+}
+
+footer .redes i:hover {
+  color: c;
+}
+
+footer .lista-footer ul li a {
+  text-decoration: none;
+  color: white;
+}
+
+footer .btn {
+  background-color: #FAD586 !important;
+  border-color: #FAD586 !important;
+  color: black;
+}
+
+footer .btn:hover {
+  color: black !important;
+  background-color: #96BB7C !important;
+  border-color: #96BB7C !important;
+}
+
+@media screen and (min-width: 768px) {
+  footer {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: row-reverse;
+            flex-direction: row-reverse;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+  }
+}
+
+* {
+  padding: 0;
+  margin: 0%;
+  list-style-type: none;
+}
+
+.navbar {
+  background-color: white !important;
+}
+
+.carousel {
+  margin-top: 25%;
+}
+
+.productos {
+  margin: 2% 0% 10% 0%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.productos .card {
+  margin: 15% 0% 5% 0%;
+}
+
+@media screen and (min-width: 768px) {
+  .carousel {
     margin: 0%;
-    
-}
-.productos{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    max-width: 100%;
-}
-.card{
-    border-radius: 1% !important;
-    transition: all 0.2 ease;
-}
-.card:hover{
-    border-color: rgb(0, 0, 0,0.3);
-    box-shadow: 2px 2px rgb(0, 0, 0,0.2);
-    transform: scale(1.05);
-    
-}
-
-
-.btn{
-    background-color: #96BB7C !important;
-    border-color: #96BB7C !important;
-}
-.btn:hover{
-    color: black !important;
-    background-color: #FAD586 !important;
-    border-color: #FAD586 !important;
-}
-@media screen and (min-width:768px) {
-    .productos{
-        display:grid;
-        grid-template-columns: 1fr 1fr;
+  }
+  .productos {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 1fr 1fr 1fr;
+        grid-template-columns: 1fr 1fr 1fr;
+    -ms-grid-rows: 1fr;
         grid-template-rows: 1fr;
-        grid-template-areas: "producto producto";
-        grid-area: auto;
-    }
-
-    .card{
-        display:grid;
-        margin: 10%;
-        grid:producto;
-    }
+        grid-template-areas: "producto producto producot";
+  }
+  .productos .card {
+    margin: 5%;
+    display: -ms-grid;
+    display: grid;
+    grid: producto;
+  }
 }
-@media screen and (min-width:992px) {
-    
-    .productos{
-        margin: 10%;
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        grid-template-rows: 1fr;
-        grid-template-areas: "producto producto producto";
-        grid-area: auto;
- 
-    }
-    .card{
-        grid: "producto";
-        margin-top: 15%!important;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        border-color: #96BB7C;
-        margin: 10%;
-    }
-    
-    .btn{
-        background-color: #96BB7C;
-        border-color: #96BB7C;
-    }
-    .btn:hover{
-        color: black;
-        background-color: #FAD586;
-        border-color: #FAD586;
-    }
-}
+/*# sourceMappingURL=Productos.css.map */

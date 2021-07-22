@@ -1,138 +1,173 @@
-*{
-    margin: 0%;
-    padding: 0%;
-    list-style: none;
-    max-width: 100%;
-
-}
-.navbar{
-    background-color: white !important;
-}
-
-.empresa{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    padding: 5%;
-}
-.qsomos,.valores,.innovacion,.instalaciones{
-    padding: 5%;
-    margin: 8% 5% 8% 0%;
-    box-shadow: 5px 10px rgb(0, 0, 0,0.11);
-    border-radius: 5%;
-    transition: all 0.3s ease;
-
-}
-.valor:hover{
-    transform: scale(1.1);
-}
-.valor{
-    transition: all ease 0.2s;
+/*Declaracion de variables*/
+/*Declaracion de variables*/
+/*FOOTER*/
+footer {
+  padding: 5%;
+  background-color: #184D47;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
 }
 
-.guion{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-.empresa hr{
-    height: 2px;
-    width: 35vh;
-    background-color: #184D47;
-    margin-top: 2px;
-}
-.imagen{
-    background-image: url(/Imagenes/agricultura.jpg);
-    background-attachment: fixed;
-    background-position: center top;
-    background-size: cover;
-    width: 100%;
-    height: 80vh;
+footer p {
+  text-align: center;
+  color: white;
 }
 
+footer .redes i {
+  color: white;
+}
 
+footer .redes i a {
+  text-decoration: none;
+}
 
-.btn{
-    background-color: #96BB7C !important;
-    border-color: #96BB7C !important;
+footer .redes i:hover {
+  color: c;
 }
-.btn:hover{
-    color: black !important;
-    background-color: #FAD586 !important;
-    border-color: #FAD586 !important;
+
+footer .lista-footer ul li a {
+  text-decoration: none;
+  color: white;
 }
-footer{
-        padding-top: 2%;
-        padding-bottom: 2%;
-        background-color: #184D47;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
-footer p{
-    text-align: center;
+
+footer .btn {
+  background-color: #FAD586 !important;
+  border-color: #FAD586 !important;
+  color: black;
 }
-.lista-footer ul li a{
-    text-decoration: none;
-    color: white;
+
+footer .btn:hover {
+  color: black !important;
+  background-color: #96BB7C !important;
+  border-color: #96BB7C !important;
 }
-.redes{
-        width: 35%;
-        display: flex;
-        flex-direction: row;
-        justify-content: space-evenly;
-    }
-.redes i{
-        color: #eff7eb;
-    }
-.redes i a{
-    text-decoration: none;}
-    
-.redes i:hover{
-        color: #FAD586;
-    }
-.derechos{
-    margin-left: 5%;
-    color: #eff7eb;
-    }
-    
-@media screen and (min-width:768px) {
-    footer{
-        padding-top: 2%;
-        padding-bottom: 2%;
-        background-color: #184D47;
-        display: flex;
-        flex-direction: row-reverse;
+
+@media screen and (min-width: 768px) {
+  footer {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: row-reverse;
+            flex-direction: row-reverse;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -ms-flex-pack: distribute;
         justify-content: space-around;
-        padding-left: 15%;
-        padding-right: 15%;
-    }
-.redes i{
-        color: #eff7eb;
-    }
-.redes i a{
-    text-decoration: none;}
-    
-.redes i:hover{
-        color: #FAD586;
-    }
-.derechos{
-    margin-left: 5%;
-    color: #eff7eb;
-    }
-
-.empresa{
-    flex-direction: row;
+  }
 }
 
-.instalaciones p{
-    margin: left 2%;
+* {
+  margin: 0%;
+  padding: 0%;
+  list-style: none;
+  max-width: 100%;
+}
+
+header .navbar {
+  background-color: white !important;
+}
+
+img {
+  margin-top: 12%;
+}
+
+/*MAIN*/
+main .empresa {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 5%;
+}
+
+main .empresa .valor {
+  background-color: #96BB7C;
+  padding: 5%;
+  margin: 8% 5% 8% 0%;
+  -webkit-box-shadow: 5px 10px #184D47;
+          box-shadow: 5px 10px #184D47;
+  border-radius: 5%;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+  -webkit-transition: all ease 0.2s;
+  transition: all ease 0.2s;
+}
+
+main .empresa .valor:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+
+main .empresa .valor .qsomos .guion, main .empresa .valor .valores .guion, main .empresa .valor .innovacion .guion, main .empresa .valor .instalaciones .guion {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+main .empresa .valor .qsomos .guion hr, main .empresa .valor .valores .guion hr, main .empresa .valor .innovacion .guion hr, main .empresa .valor .instalaciones .guion hr {
+  height: 2px;
+  width: 35vh;
+  background-color: #184D47;
+  margin-top: 2px;
+}
+
+main .imagen {
+  background-image: url(/Imagenes/agricultura.jpg);
+  background-attachment: fixed;
+  background-position: center top;
+  background-size: cover;
+  width: 100%;
+  height: 80vh;
+}
+
+@media screen and (min-width: 768px) {
+  .empresa {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    flex-direction: column;
-    align-items: center;
+    -webkit-box-orient: horizontal !important;
+    -webkit-box-direction: normal !important;
+        -ms-flex-direction: row !important;
+            flex-direction: row !important;
+  }
+  .empresa .instalaciones p {
+    margin: left 2%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
 }
-h2{
-    text-align:left;
-}
-}
+/*# sourceMappingURL=Nosotros.css.map */

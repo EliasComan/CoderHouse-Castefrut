@@ -1,0 +1,89 @@
+@import 'variables';
+@import 'footer';
+
+
+*{
+    margin: 0%;
+    padding: 0%;
+    list-style: none;
+    max-width: 100%;
+
+}
+
+header{
+    .navbar{
+    background-color: white !important;
+    }
+   
+}
+img{
+    margin-top: 12%;
+}
+
+/*MAIN*/
+main{
+    .empresa{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 5%;
+        .valor{
+            background-color: $verde;
+            padding: 5%;
+            margin: 8% 5% 8% 0%;
+            box-shadow: 5px 10px $verde-oscuro;
+            border-radius: 5%;
+            transition: all 0.3s ease;
+            transition: all ease 0.2s;
+            &:hover{
+                transform: scale(1.1);
+            }
+
+            .qsomos,.valores,.innovacion,.instalaciones{
+              
+                
+                .guion{
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    hr{
+                        height: 2px;
+                        width: 35vh;
+                        background-color: $verde-oscuro;
+                        margin-top: 2px;
+                    }
+                }
+               
+            }
+        }
+       
+       
+    }
+
+    .imagen{
+        background-image: url(/Imagenes/agricultura.jpg);
+        background-attachment: fixed;
+        background-position: center top;
+        background-size: cover;
+        width: 100%;
+        height: 80vh;
+    }
+
+
+}
+
+
+@media screen and (min-width:768px) {
+    
+    .empresa{
+        display: flex;
+        flex-direction: row !important;
+        .instalaciones p{
+            margin: left 2%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+    }
+}

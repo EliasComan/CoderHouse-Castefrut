@@ -1,0 +1,51 @@
+@import 'variables';
+
+/*FOOTER*/
+
+footer{
+    padding: 5%;
+    background-color: $verde-oscuro;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-evenly;
+    p{
+        text-align: center;
+        color: white;
+    }
+    .redes{
+        i{
+            color: white;
+            a{
+                text-decoration: none;
+            
+            }
+            &:hover{
+                color: c;
+            }
+        }    
+    }
+    .lista-footer ul li a{
+        text-decoration: none;
+        color: white;
+    }
+    .btn{
+        background-color: $amarillo !important;
+        border-color: $amarillo !important;
+        color: black;
+        &:hover{
+            color: black !important;
+            background-color: $verde!important;
+            border-color: $verde!important;
+        }
+    }    
+}
+
+
+@media screen and (min-width:768px) { 
+    footer{
+        flex-direction: row-reverse;
+        align-items: center;
+        justify-content: space-around;
+    }
+}

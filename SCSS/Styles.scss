@@ -1,0 +1,161 @@
+@import 'variables';
+
+*{
+    padding: 0%;
+    margin: 0%;
+    list-style-type: none;
+}
+/*HEADER*/
+
+.navbar{
+    background-color: white !important;
+}
+
+.navbar1{
+    background:linear-gradient(to bottom, rgba(0, 0, 0, 0.6) 0%, rgba(0, 0, 0, 0.9) 100%), url(/Imagenes/fondo-inicio.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    background-position-y:center;
+    color:#eff7eb;
+
+    .bienvenida{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        height: 100vh;
+        h2{
+            overflow-y: hidden;
+        }
+    }
+
+}
+
+
+/*MAIN*/
+main{
+    overflow-y: hidden;
+    .mision{
+        margin-top: 2%; 
+        .mision-titulo{
+            display: flex;
+            justify-content: center;
+        }
+        .mision-texto{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+            p{
+                margin: 2% 2% 2% 2%;
+                max-width: 75%;
+            }
+        }
+    }
+    .guion{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    hr{
+        height: 2px;
+        width: 35vh;
+        background-color: $verde-oscuro;
+        margin-top: 2px;
+    }
+    .valores{
+        margin-top: 5%;
+        padding-bottom: 5%;
+        .valores-tiulo{
+            padding-top: 2%;
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+            align-items: center;
+            
+        }
+        .valores-primerlinea{
+            margin: 5%;
+            display: grid;
+            grid-template-columns:1fr  1fr  1fr ;
+            grid-template-rows: 1fr;
+            grid-template-areas: " valor   valor  valor ";
+            .valor{
+                grid: valor;
+                margin: 5%;
+                text-align: center;
+            }
+        }
+        h3{
+          font-size:  1em !important;
+        }
+        .valor{ 
+            margin: 5%;
+            transition: all 0.2s ease;
+            img{
+            height: auto;
+            }
+            h3{
+                margin-top: 10%;
+                overflow: hidden;
+                text-align: center;
+            }
+            
+            &:hover{
+                transform: scale(1.05);
+            }
+        }
+        .valores-segundalinea{
+            margin: 5%;
+              display: grid;
+            grid-template-columns: 1fr 1fr ;
+            grid-template-rows: 1fr;
+            grid-area: "valor valor";
+          
+            .valor{
+                margin:5%;
+                grid: valor;
+                text-align: center;
+                }
+          }
+        
+    }
+    .innovacion{
+        .innovacion-titulo{
+            margin-top: 8%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+                p{
+                    margin-top: 2%;
+                    max-width: 85%;
+                text-align: center;
+                }
+            }
+            .innovacion-imagen .img img{
+                margin-top: 5%;
+                margin-bottom: 5%;
+                filter: brightness(95%);
+                max-width: 100%;
+            }
+    }
+    
+}
+
+@import 'footer';
+
+/*MEDIA*/
+
+@media screen and (min-width:768px) { 
+    
+     main {
+         .valores {
+              h3 {
+        font-size: calc(1.3rem + .6vw)  !important;
+            }
+            } 
+            }
+}
