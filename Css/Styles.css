@@ -242,12 +242,16 @@ footer .redes i a {
 }
 
 footer .redes i:hover {
-  color: white;
+  color: #96BB7C;
 }
 
 footer .lista-footer ul li a {
   text-decoration: none;
   color: white;
+}
+
+footer .lista-footer ul li a:hover {
+  color: #96BB7C;
 }
 
 footer .btn {

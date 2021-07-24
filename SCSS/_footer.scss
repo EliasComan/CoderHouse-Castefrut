@@ -21,13 +21,16 @@ footer{
             
             }
             &:hover{
-                color: white;
+                color: $verde;
             }
         }    
     }
     .lista-footer ul li a{
         text-decoration: none;
         color: white;
+        &:hover{
+            color:$verde;
+        }
     }
     .btn{
         background-color: $amarillo !important;
