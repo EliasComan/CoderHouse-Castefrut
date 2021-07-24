@@ -169,5 +169,8 @@ main .imagen {
         -ms-flex-align: center;
             align-items: center;
   }
+  img {
+    margin-top: 6%;
+  }
 }
 /*# sourceMappingURL=Nosotros.css.map */
