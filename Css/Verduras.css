@@ -1,3 +1,9 @@
+* {
+  padding: 0%;
+  margin: 0%;
+  list-style: none;
+}
+
 /*Declaracion de variables*/
 /*Declaracion de variables*/
 /*FOOTER*/
@@ -130,23 +136,32 @@ footer .btn:hover {
   }
 }
 
-* {
-  padding: 0;
-  margin: 0%;
-  list-style-type: none;
-}
-
 .navbar {
   background-color: white !important;
 }
 
-.carousel {
-  margin-top: 25%;
+.banner {
+  margin-top: 20%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: end;
+  width: 100%;
+  height: auto;
+}
+
+.banner img {
+  width: 100%;
 }
 
 @media screen and (min-width: 768px) {
-  .carousel {
-    margin: 0%;
+  .banner {
+    margin-top: 5%;
   }
 }
-/*# sourceMappingURL=Frutas.css.map */
+/*# sourceMappingURL=Verduras.css.map */

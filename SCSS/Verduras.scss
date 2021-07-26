@@ -1,0 +1,31 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    list-style: none;
+}
+
+@import 'variables';
+@import 'footer';
+@import 'productos';
+
+.navbar{
+    background-color: white !important;
+}
+
+.banner{
+    margin-top: 20%;
+    display: flex;
+    align-items: center;
+    justify-content:end;
+    width: 100%;
+    height: auto;
+    img{
+        width: 100%;
+    }
+}
+
+@media screen and (min-width:768px) {
+    .banner{
+        margin-top: 5%;
+    }
+}
