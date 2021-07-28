@@ -81,25 +81,18 @@ footer .btn:hover {
   background-color: white !important;
 }
 
-.banner-contacto {
-  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.4)), to(rgba(0, 0, 0, 0.5))), url(/Imagenes/bannercontacto.jpg);
-  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.4) 0%, rgba(0, 0, 0, 0.5) 100%), url(/Imagenes/bannercontacto.jpg);
-  background-attachment: fixed;
-  background-position: center;
-  background-size: cover;
-  width: auto;
-  height: auto;
-  text-align: center;
-  color: white;
-}
-
-.banner-contacto p {
-  padding: 25%;
-  font-size: 50px;
-}
-
-.banner-contacto img {
-  width: 100%;
+.imagen-banner {
+  margin-top: 30%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  max-width: 100%;
   height: auto;
 }
 
@@ -136,5 +129,11 @@ footer .btn:hover {
 
 .contacto .telefono .icon, .contacto .mail .icon, .contacto .ubicacion .icon, .contacto .horario .icon {
   color: #FAD586;
+}
+
+@media screen and (min-width: 768px) {
+  .imagen-banner {
+    margin-top: 5%;
+  }
 }
 /*# sourceMappingURL=Contacto.css.map */
