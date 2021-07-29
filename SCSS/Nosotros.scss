@@ -29,10 +29,10 @@ main{
         align-items: center;
         padding: 5%;
         .valor{
-            background-color: $verde;
+           // background-color: $verde;
             padding: 5%;
             margin: 8% 5% 8% 0%;
-            box-shadow: 5px 10px $verde-oscuro;
+            box-shadow: 5px 8px $verde;
             border-radius: 5%;
             transition: all 0.3s ease;
             transition: all ease 0.2s;

@@ -161,7 +161,8 @@ footer .btn:hover {
 
 @media screen and (min-width: 768px) {
   .banner {
-    margin-top: 5%;
+    margin-top: 3%;
+    padding-top: 2%;
   }
 }
 /*# sourceMappingURL=Verduras.css.map */

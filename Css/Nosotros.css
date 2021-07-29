@@ -105,11 +105,10 @@ main .empresa {
 }
 
 main .empresa .valor {
-  background-color: #96BB7C;
   padding: 5%;
   margin: 8% 5% 8% 0%;
-  -webkit-box-shadow: 5px 10px #184D47;
-          box-shadow: 5px 10px #184D47;
+  -webkit-box-shadow: 5px 8px #96BB7C;
+          box-shadow: 5px 8px #96BB7C;
   border-radius: 5%;
   -webkit-transition: all 0.3s ease;
   transition: all 0.3s ease;
