@@ -105,6 +105,7 @@ main .empresa {
 }
 
 main .empresa .valor {
+  background-color: #C9E4C5;
   padding: 5%;
   margin: 8% 5% 8% 0%;
   -webkit-box-shadow: 5px 8px #96BB7C;

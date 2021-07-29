@@ -97,8 +97,8 @@ footer .btn:hover {
 .productos .card {
   border-color: #96BB7C;
   border-radius: 5%;
-  -webkit-box-shadow: 2px 5px #184D47;
-          box-shadow: 2px 5px #184D47;
+  -webkit-box-shadow: 2px 5px #96BB7C;
+          box-shadow: 2px 5px #96BB7C;
   margin: 15% 0% 5% 0%;
   -webkit-transition: all ease 0.2s;
   transition: all ease 0.2s;
