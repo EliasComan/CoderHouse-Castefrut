@@ -1,1 +1,2 @@
-Es un proyecto hecho principalmente en html y css, utilizando ademas sass y bootstrap. Todo aprendido en el curso de desarrollo web de coderhouse, para verlo no necesitaras ningun framework que instalar, solo un ide
+Es un proyecto hecho principalmente en html y css, utilizando ademas sass y bootstrap. Todo aprendido en el curso de desarrollo web de coderhouse, para verlo no necesitaras ningun framework que instalar, solo un ide.
+Se trata de un e-commerce de frutas y verduras, es un proyecto real.
