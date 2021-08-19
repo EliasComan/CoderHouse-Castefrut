@@ -81,23 +81,8 @@ footer .btn:hover {
   background-color: white !important;
 }
 
-.imagen-banner {
-  margin-top: 30%;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  max-width: 100%;
-  height: auto;
-}
-
 .contacto {
-  margin: 5%;
+  margin: 15% 5% 5% 5%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;

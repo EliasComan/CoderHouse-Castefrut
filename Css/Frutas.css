@@ -117,6 +117,23 @@ footer .btn:hover {
   .productos {
     display: -ms-grid;
     display: grid;
+    -ms-grid-columns: 1fr 1fr;
+        grid-template-columns: 1fr 1fr;
+    -ms-grid-rows: 1fr;
+        grid-template-rows: 1fr;
+        grid-template-areas: "producto producto";
+  }
+  .productos .card {
+    margin: 25% 5% 10% 15% !important;
+    display: -ms-grid;
+    display: grid;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .productos {
+    display: -ms-grid;
+    display: grid;
     -ms-grid-columns: 1fr 1fr 1fr;
         grid-template-columns: 1fr 1fr 1fr;
     -ms-grid-rows: 1fr;
@@ -134,6 +151,10 @@ footer .btn:hover {
   padding: 0;
   margin: 0%;
   list-style-type: none;
+}
+
+.img-banner img {
+  max-width: 100%;
 }
 
 .navbar {

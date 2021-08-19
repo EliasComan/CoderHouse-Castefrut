@@ -136,10 +136,10 @@ main{
                 text-align: center;
                 }
             }
-            .innovacion-imagen .img img{
-               display: block;
-               margin: auto;
-               filter: brightness(94%)
+            .innovacion-imagen  .img img{
+                margin: auto;
+                max-width: 100%;
+                filter: brightness(95%)
             }
     }
     

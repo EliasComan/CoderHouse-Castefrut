@@ -149,7 +149,7 @@ main .imagen {
   height: 80vh;
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 1024px) {
   .empresa {
     display: -webkit-box;
     display: -ms-flexbox;
