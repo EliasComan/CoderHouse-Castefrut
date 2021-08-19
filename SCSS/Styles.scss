@@ -137,10 +137,9 @@ main{
                 }
             }
             .innovacion-imagen .img img{
-                margin-top: 5%;
-                margin-bottom: 5%;
-                filter: brightness(95%);
-                max-width: $width;
+               display: block;
+               margin: auto;
+               filter: brightness(94%)
             }
     }
     

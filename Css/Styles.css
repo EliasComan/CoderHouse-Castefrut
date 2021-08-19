@@ -201,11 +201,10 @@ main .innovacion .innovacion-titulo p {
 }
 
 main .innovacion .innovacion-imagen .img img {
-  margin-top: 5%;
-  margin-bottom: 5%;
-  -webkit-filter: brightness(95%);
-          filter: brightness(95%);
-  max-width: 100%;
+  display: block;
+  margin: auto;
+  -webkit-filter: brightness(94%);
+          filter: brightness(94%);
 }
 
 /*Declaracion de variables*/
